@@ -29,8 +29,9 @@ This project provides a shell script to automate the installation of ERPNext on 
 
 1. **Download the script**
    ```bash
-   sudo apt install curl
-   curl -O https://raw.githubusercontent.com/talha50819/erpnext/blob/main/install_erpnext.sh
+   sudo apt install git
+   git clone https://github.com/talha50819/erpnext.git
+   cd erpnext
    chmod +x install_erpnext.sh
    ```
 
